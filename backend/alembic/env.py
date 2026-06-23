@@ -12,7 +12,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from backend.core.config import get_database_url
-from backend.models import Project, StepOutput  # noqa: F401
+from backend.models import Project, PromptTemplate, StepOutput  # noqa: F401
 
 
 config = context.config
