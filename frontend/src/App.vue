@@ -1,3 +1,3 @@
 <template>
-  <BlankCanvas />
+  <RouterView />
 </template>
